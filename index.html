@@ -1,0 +1,54 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Web File Hasher</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <span id="algorithms">
+        <input type="checkbox" id="sha1" value="SHA-1">
+        <label for="sha1">SHA-1</label>
+
+        <input type="checkbox" id="sha256" value="SHA-256">
+        <label for="sha256">SHA-256</label>
+
+        <input type="checkbox" id="sha384" value="SHA-384">
+        <label for="sha384">SHA-384</label>
+
+        <input type="checkbox" id="sha512" value="SHA-512">
+        <label for="sha512">SHA-512</label>
+    </span>
+
+    <p>
+
+        <input type="file" id="files" multiple>
+
+    <p>
+
+    <table id="results">
+        <thead>
+            <tr>
+                <th>File Name</th>
+                <th>Algorithm</th>
+                <th>Checksum</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+    <p>
+        
+    <div class="icons_made_by">Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+</body>
+
+</html>
